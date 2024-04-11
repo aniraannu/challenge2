@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Protfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <header class="sidebar-header">
+        <!--Navigation : Side Bar-->
+        <nav class="primary-menu">
+            <!--Profile Picture-->
+            <div class="profile-picture">
+                <img src="./assets/images/profile-photo.jpg" alt="profile photo" width="200" height="200" />
+            </div>
+            <!--Profile Name & Position-->
+            <h1>Anira Raveendran</h1>
+            <!--Navigation Bar-->
+            <div id="header-nav">
+                <ul class="navbar">
+                    <li class="nav-item"><a href="#home">Home</a></li>
+                    <li class="nav-item"><a href="#about">About Me</a></li>
+                    <li class="nav-item"><a href="#services">What I do</a></li>
+                    <li class="nav-item"><a href="#projects">My works</a></li>
+                    <li class="nav-item"><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+            <!--Twitter and Instagram logo with links-->
+            <div class="icons">
+                <a href="www.twitter.com/aniraraveendran"><img src="./assets/images/twitter-icon.png" alt="twitter logo"
+                        width="30" height="30" /></a>
+                <a href="https://www.instagram.com/_beyond_my_thoughtz_/?igsh=MzRlODBiNWFlZA%3D%3D"><img
+                        src="./assets/images/instagram-logo.png" alt="instagaram logo" width="30" height="30" /></a>
+            </div>
+            <!--Location & github links-->
+            <div class="links">
+                <ul>
+                    <li>📍 Los Angeles</li>
+                    <li><a href="https://github.com/aniraannu">🔗 Github</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--End of Side Bar Header-->
+    <!--Main Section-->
+    <main>
+        <!--About Me section-->
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>I describe myself as someone who's very persistant, a quick learner, adaptive and loves problem
+                solving by using simple and scalable solutions.</p>
+        </section>
+        <!--What I do Section-->
+        <section id="services" class="services">
+            <h2>What I do</h2>
+            <div class="row">
+                <section class="card">
+                    <header>Web Development</header>
+                    <img src="" alt="web development logo" />
+                    <p>Able to create beautiful sites by using HTML, CSS and JavaScript</p>
+                </section>
+                <section class="card">
+                    <header>Automation Testing</header>
+                    <img src="" alt="QA testing logo" />
+                    <p>Able to do the quality testing using Selenium</p>
+                </section>
+                <section class="card">
+                    <header>Resposnsive Design</header>
+                    <img src="" alt="Responsive design logo" />
+                    <p>Able to create mobile responsive sites at professional level</p>
+                </section>
+                <section class="card">
+                    <header>Strong Support</header>
+                    <img src="" alt="Support logo" />
+                    <p>Able to communicate ideas in a brief way</p>
+                </section>
+            </div>
+        </section>
+        <!--My Projects section-->
+        <section id="projects" class="projects">
+            <h2>My Works</h2>
+            <div class="row">
+                <!--Project 1-->
+                <section class="card">
+                    <header>Horizon Code Refaction</header>
+                    <a href="https://aniraannu.github.io/challenge_1/"><img src="./assets/images/project1.png" alt="Horizon website" /></a>
+                </section>
+                <!--Project 2-->
+                <section class="card">
+                    <header>Project 2</header>
+                    <a href="#"><img src="" alt="Placeholder image" /></a>
+                </section>
+                <!--Project 3-->
+                <section class="card">
+                    <header>Project 3</header>
+                    <a href="#"><img src="" alt="Placeholder image" /></a>
+                </section>
+                <!--Project 4-->
+                <section class="card">
+                    <header>Project 4</header>
+                    <a href="#"><img src="" alt="Placeholder image" /></a>
+                </section>
+            </div>
+
+        </section>
+        <!--Contact Section-->
+        <section id="contact" class="contact">
+            <h2>Get In Touch</h2>
+            <div class="form">
+                <input name="name" type="text" required placeholder="Name">
+                <input name="email" type="email" required placeholder="Email">
+                <textarea name="form-message" required placeholder="Your message"></textarea>
+            </div>
+            <button id="send-message" type="submit">Send Message</button>
+        </section>
+    </main>
+</body>
+
+</html>
