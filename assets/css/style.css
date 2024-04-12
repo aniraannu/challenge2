@@ -82,6 +82,11 @@ p {
   justify-content: center;
 }
 /*Main Content*/
+.home {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px;
+}
 .content1 {
   position: relative;
   left: 290px;
@@ -108,6 +113,7 @@ p {
   color: darkslategray;
   font-size: 1.2rem;
 }
+.fixed-card,
 .card {
   border-style: solid;
   border-width: 1px;
@@ -116,6 +122,19 @@ p {
   box-shadow: 10px 10px 5px #aaaaaa;
   margin: 20px;
   background-color: rgb(230, 234, 236);
+}
+.card img {
+  width: 100%;
+}
+/*Pseudo elements defined to select a application*/
+/*Application highlighted with a border color and appears big while hovered*/
+.card:hover {
+flex: 0 0 500Px;
+border: 5px solid aqua;
+}
+/*While application is selected, background changes*/
+.card:active {
+  background-color: rgb(39, 56, 39);
 }
 /*Fill out: Input forms*/
 .form{
